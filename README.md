@@ -41,14 +41,16 @@ For each of the following exercises, provide the appropriate query. Yes, even th
 1. [`brazil_customers.sql`](./brazil_customers.sql): Provide a query only showing the Customers from Brazil.
 1. [`brazil_customers_invoices.sql`](./brazil_customers_invoices.sql): Provide a query showing the Invoices of customers who are from Brazil. The resultant table should show the customer's full name, Invoice ID, Date of the invoice and billing country.
 1. [`sales_agents.sql`](./sales_agents.sql): Provide a query showing only the Employees who are Sales Agents.
-1. [`unique_invoice_countries.sql`](./unique_invocie_countries.sql): Provide a query showing a unique/distinct list of billing countries from the Invoice table.
+1. [`unique_invoice_countries.sql`](./unique_invoice_countries.sql): Provide a query showing a unique/distinct list of billing countries from the Invoice table.
 1. [`sales_agent_invoices.sql`](./sales_agent_invoices.sql): Provide a query that shows the invoices associated with each sales agent. The resultant table should include the Sales Agent's full name.
-1. `invoice_totals.sql`: Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
-1. `total_invoices_{year}.sql`: How many Invoices were there in 2009 and 2011? 
-1. `total_sales_{year}.sql`: What are the respective total sales for each of those years?
-1. `invoice_37_line_item_count.sql`: Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
-1. `line_items_per_invoice.sql`: Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for each Invoice. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
-1. `line_item_track.sql`: Provide a query that includes the purchased track name with each invoice line item.
+------------------------------------------
+1. [`invoice_totals.sql`](./invoice_totals.sql): Provide a query that shows the Invoice Total, Customer name, Country and Sale Agent name for all invoices and customers.
+1. [`total_invoices_{year}.sql`](./total_invoices_{year}.sql): How many Invoices were there in 2009 and 2011? 
+1. [`total_sales_{year}.sql`](./total_sales_{year}.sql): What are the respective total sales for each of those years?
+1. [`invoice_37_line_item_count.sql`](./invoice_37_line_item_count.sql): Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for Invoice ID 37.
+1. [`line_items_per_invoice.sql`](./line_items_per_invoice.sql): Looking at the InvoiceLine table, provide a query that COUNTs the number of line items for each Invoice. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
+1. [`line_item_track.sql`](./line_item_track.sql): Provide a query that includes the purchased track name with each invoice line item.
+------------------------------------------
 1. `line_item_track_artist.sql`: Provide a query that includes the purchased track name AND artist name with each invoice line item.
 1. `country_invoices.sql`: Provide a query that shows the # of invoices per country. HINT: [GROUP BY](http://www.sqlite.org/lang_select.html#resultset)
 1. `playlists_track_count.sql`: Provide a query that shows the total number of tracks in each playlist. The Playlist name should be include on the resulant table.
